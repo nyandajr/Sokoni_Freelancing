@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
+
 {% block title %}
     All templates
 {% endblock %}
@@ -24,9 +25,10 @@
                         <div class="clearfix blog-bottom blog blogitemlarge">
                             <a href="#" data-id="{{ template.id }}" data-toggle="modal" data-target="#createModal" title="Resume 8"
                                class="btn_builder_template image-blog date clearfix">
-                                <img src="{{ template.thumbnail.url }}"
+                                <!-- Removed thumbnail <img> tag -->
+                                <!-- <img src="{{ template.thumbnail.url }}"
                                      alt="{{ template.name }}"
-                                     data-was-processed="true" class="">
+                                     data-was-processed="true" class=""> -->
                                 <span class="post-date badge badge-success"> Free</span>
                             </a>
                             <div class="content_blog clearfix flex flex-column flex-lg-row">
