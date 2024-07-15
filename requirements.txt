@@ -61,7 +61,7 @@ pre-commit==2.13.0
 progress==1.5
 promise==2.3
 prometheus-client==0.14.1
-psycopg2-binary==2.8.6
+psycopg2-binary
 pycparser==2.20
 Pygments==2.7.1
 PyJWT==2.3.0
